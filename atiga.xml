@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="atiga-hub"
+          fetch="ssh://git@github.com"
+          revision="refs/heads/derp-15" />
+
+  <remote name="atiga-lab"
+          fetch="https://gitlab.com"
+          revision="refs/heads/13.x" />
+
+  <project path="device/atiga/ota" name="aepranata/device_atiga_ota" revision="lineage-22.0" />
+  <project path="packages/apps/AtigaArtsStub" name="Atiga-Stuff/packages_apps_AtigaArtsStub" remote="atiga-hub" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="atiga-lab" clone-depth="1" />
+  <project path="vendor/atiga-priv" name="Atiga-Stuff/vendor_atiga-priv" remote="atiga-hub" />
+</manifest>
