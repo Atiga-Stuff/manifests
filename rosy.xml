@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="rosy-stuff"
+           fetch="ssh://git@github.com"
+           revision="refs/heads/15" />
+
+  <!-- Atiga Trees -->
+  <project path="device/xiaomi/rosy" name="Atiga-Stuff/device_xiaomi_rosy" remote="rosy-stuff" />
+  <project path="kernel/xiaomi/rosy" name="Atiga-Stuff/kernel_xiaomi_rosy" remote="rosy-stuff" />
+  <project path="vendor/xiaomi/rosy" name="Atiga-Stuff/vendor_xiaomi_rosy" remote="rosy-stuff" />
+</manifest>
