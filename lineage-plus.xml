@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="los-plus"
-           fetch="ssh://git@github.com"
+           fetch="https://github.com"
            revision="refs/heads/lineage-plus-22.1" />
 
   <!-- AOSP -->
